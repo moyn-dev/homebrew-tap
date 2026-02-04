@@ -1,25 +1,25 @@
 class Moyn < Formula
   desc "Developer microblogging from your terminal"
   homepage "https://moyn.dev"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.1/moyn-aarch64-apple-darwin.tar.xz"
-      sha256 "dda84eae2d45c92990f3eabfa3a8d6b4663b22c0d6ef01f0daa8d3c0ffcd552f"
+      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.2/moyn-aarch64-apple-darwin.tar.xz"
+      sha256 "ed0a985ef62d6d560f8e451f66d91761c221d591ec09b722fa70a96da77155e0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.1/moyn-x86_64-apple-darwin.tar.xz"
-      sha256 "60847983430bef70c1452bc3098731b74c627fcbd8c3ea2477e314a3becf94f2"
+      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.2/moyn-x86_64-apple-darwin.tar.xz"
+      sha256 "1f71bba6efd476e55ab242dd53283bd11da91ebbde92a2e4d6536cc2192328b6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.1/moyn-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "05c8bf8a48fa709c11e0a8cc7d357693d16e7071a857ab6f1455edd485c157aa"
+      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.2/moyn-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dba279463598b82d4504f53c3e064dc177e4f1a3c06a5529fecc3bf31fa9adc3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.1/moyn-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8f29dcb86c75e34a44dbd55a2943810f7e3dbe03adc1a647e7945af3a97aa138"
+      url "https://github.com/moyn-dev/moyn-cli/releases/download/v0.1.2/moyn-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e758c83db3328478cdfe0f5a400bc3d466bde4b2d229e0021b7c709f5ed7c692"
     end
   end
   license "MIT"
